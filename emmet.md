@@ -52,3 +52,32 @@ output
   </div>
 </div>
 ```
+
+### InnerHTML
+if you want to set the innerHTML you can use this **{}**
+
+example
+```
+.row>.col*{Col}
+```
+output
+```
+<div class="row">
+  <div class="col">Col</div>
+  <div class="col">Col</div>
+  <div class="col">Col</div>
+</div>
+```
+### Dynamic Numbering
+I want to create 3 div elements with class `col1`, `col2`, `col3` to dynamically create use this
+
+example
+```
+p.col$*3{$}
+```
+output
+```
+<p class="col1">1</p>
+<p class="col2">2</p>
+<p class="col3">3</p>
+```
