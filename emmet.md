@@ -22,6 +22,14 @@ output
 ```
 <div class="row"></div>
 ```
+### Multiple Class Assign
+```
+.btn.btn-primary
+```
+output
+```
+<button class="btn btn-primary"></button>
+```
 
 ### How to use different element?
 You can see it always create an element of `div` but I want to create in the `p`, `h1`, `span`...etc. how to do that
