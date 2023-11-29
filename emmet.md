@@ -23,7 +23,7 @@ output
 <div class="row"></div>
 ```
 
-### How to use different element
+### How to use different element?
 You can see it always create an element of `div` but I want to create in the `p`, `h1`, `span`...etc. how to do that
 
 if you want to use a <p> element with a class of "col", you can do:
@@ -33,4 +33,22 @@ p.col
 output
 ```
 <p class="col"></p>
+```
+
+### Nested Components.
+For example I want to create a nested of elements for the we can use this **>**
+
+example
+```
+.container>.row>.col*3
+```
+output
+```
+<div class="container">
+  <div class="row">
+    <div class="col"></div>
+    <div class="col"></div>
+    <div class="col"></div>
+  </div>
+</div>
 ```
