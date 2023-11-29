@@ -4,7 +4,7 @@ In this documentation. we are going to see lots of tips and tricks to use the em
 ### ID
 if I want to create an element with a specific `ID` you can use the **#**
 ```
-.#my-id
+#my-id
 ```
 output
 ```
